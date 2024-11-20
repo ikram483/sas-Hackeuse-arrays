@@ -17,7 +17,22 @@ console.log(frt);
 let personne ={
     name:"ikram",
     age: 23
+
     
 };
 console.log(personne.name);
-console.log(personne["age"]);
+console.log(personne.age);
+//ex7
+let person ={
+    name:"john",
+    age:29
+};
+console.log("name: " +person.name);
+console.log("age : " + person.age);
+//ex8
+let book ={
+    title:"javascript 101",
+    autheur: "john doe"
+}
+book.autheur ="jane doe";
+console.log(book.autheur);
