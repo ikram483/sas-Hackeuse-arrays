@@ -36,3 +36,56 @@ let book ={
 }
 book.autheur ="jane doe";
 console.log(book.autheur);
+//ex 9
+let car ={
+    make:"Toyota",
+    model:"corolla"
+   
+};
+car.year=2020;
+console.log(car);
+
+//ex10
+// let persn ={
+//     nom:ikram,
+//     age:23
+
+
+// };
+// let hasAge= "age" in persn;
+// console.log(hasAge);
+let persone = {
+    name: "Alice",
+    age: 30
+};
+
+let hasAge = "age" in persone;
+
+//console.log(hasAge);
+delete persone.age;
+console.log("age" in persone); 
+//ex11
+let nbr =[1,2,3,4,5];
+for (let i=0; i< nbr.length; i++){
+    console.log(nbr[i]);
+}
+//ex 12
+let nbrs =[1,2,3,4,5,6,7,8,9,10]
+let nbrsPair = nbrs.filter(num => num % 2 === 0);
+console.log(nbrsPair);
+//ex13
+let a=[1,2,3]
+let b =[ 4,5,6]
+console.log(a +","+ b);
+//ex 14
+let fruita=["apple","banana","cherry","date"];
+let index = fruita.indexOf("banana");
+
+if (index !== -1) {
+    fruita.splice(index, 1); 
+}
+console.log(fruita);
+//ex15
+let numbs =[5, 1, 8, 4, 7];
+numbs.sort((a, b) => a - b);
+console.log(numbs);
