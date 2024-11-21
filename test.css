@@ -1,0 +1,22 @@
+
+/*exemple style CSS: 
+
+p {
+    color: pink;
+    font-size: 20px;
+  }*/
+  
+
+  /*Anatomie d’une règle CSS*/
+  selector {
+    color/*property*/: value;
+  }
+  
+  /*Exemple CSS de base :*/
+
+  h1 {
+  color: red;
+  font-size: 24px;
+}
+
+

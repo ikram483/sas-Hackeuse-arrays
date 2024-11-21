@@ -89,3 +89,25 @@ console.log(fruita);
 let numbs =[5, 1, 8, 4, 7];
 numbs.sort((a, b) => a - b);
 console.log(numbs);
+//ex 16
+let numeros =[ 1,2,3,4];
+let multinum =numeros.map(numbs=>numbs*2);
+console.log(multinum);
+//ex17
+let cars ={
+    make:"mercedes",
+    model:"benz",
+    year:2019,
+    color:"noire"
+};
+let nbrProp = Object.keys(cars).length;
+console.log(nbrProp);
+//ex 18
+let perso ={
+    name:"kawtar",
+    age:26,
+    occupation:"developpeuse"
+};
+for (let property in perso) {
+    console.log(`${property}: ${perso[property]}`);
+}
